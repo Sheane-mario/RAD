@@ -18,14 +18,14 @@ const EditContact = () => {
         <span>Name</span>
         <input
           placeholder="First"
-          aria-label="First name"
+          aria-label="First name "
           type="text"
           name="first"
           defaultValue={contact?.first}
         />
         <input
           placeholder="Last"
-          aria-label="Last name"
+          aria-label="Last name "
           type="text"
           name="last"
           defaultValue={contact?.last}
